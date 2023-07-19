@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    height: 50px;
+    color: rgb(117, 110, 110);
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name {
+    color: rgb(117, 110, 110);
+    width: 50%;
+    border-bottom: 2px solid rgb(117, 110, 110);
+}
+
+.content {
+    height: 5650px;
+    border-left: 2px solid rgb(117, 110, 110);
+    border-right: 2px solid rgb(117, 110, 110);
+}
+
+.bc {
+    height: 5650px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px solid rgb(117, 110, 110);
+}
+
+p {
+    color: rgb(117, 110, 110);
+    text-decoration: none;
+    display: inline-flex;
+}
+
+a {
+    color: rgb(117, 110, 110);
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.matter {
+    display: flex;
+    height: 780px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 80%;
+    height: 40px;
+    text-decoration: none;
+    border: 2px solid rgb(117, 110, 110);
+    margin-top: 5px;
+}
+
+.v1,
+.v4 {
+    background-color: white;
+    height: 390px;
+    width: 50%;
+    background-size: cover;
+}
+
+.v2 {
+    background-image: url(3.jpg);
+    background-size: contain;
+}
+
+.v3 {
+    background-image: url(2.jpg);
+    background-size: contain;
+}
+
+
+.v2,
+.v3 {
+    background-color: rgb(117, 110, 110);
+    height: 390px;
+    width: 50%;
+}
+
+.v4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    align-self: flex-end;
+    ;
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    background-color: rgb(117, 110, 110);
+    text-decoration: none;
+    border: 2px solid rgb(117, 110, 110);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.Query {
+    width: 500px;
+    border: 2px solid rgb(117, 110, 110);
+    margin: 5px;
+}
+
+u {
+    text-decoration: dotted;
+}
+
+input {
+    width: 700px;
+    height: 50px;
+    text-decoration: none;
+    border: 2px solid rgb(117, 110, 110);
+    color: rgb(117, 110, 110);
+}
+
+input:hover {
+    background-color: rgb(230, 223, 210);
+    color: rgb(117, 110, 110);
+}
+
+p {
+    color: black;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(117, 110, 110);
+}
+
+h2,
+h3 {
+    color: rgb(117, 110, 110);
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    animation: hi 2s fade-out 0.2s infinite normal;
+}
